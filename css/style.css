@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+list-style: none;}
+
+body{ background-image:url(/imagens/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: Sora;
+}
+
+header{display: flex;
+justify-content: space-around;
+align-items: center;
+background:rgba(29, 29, 29, 0.5);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);}
+
+nav ul li{cursor: pointer;}
+
+ul{display: flex;}
+
+li{color: rgba(249, 249, 249, 1);
+margin: 30px;}
+
+
+nav{background:rgba(29, 29, 29, 0.5);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+width: 90px;
+display: block;
+flex-direction: column;
+position: absolute;
+justify-content: space-between;}
+
+
+.icones{display: flex;
+flex-direction: column;
+margin-bottom: 200px;
+}
+
+main{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 250px;}
+
+main button{width: 350px;
+height: 70px;
+background-color: rgba(29, 29, 29, 1);
+color: #ffff;
+font-weight: 600;
+align-items: center;
+cursor: pointer;
+display: flex;
+justify-content: center;
+padding: 5px;
+font-size: 20px;
+
+border:none}
+
+button:hover{ color: rgba(236, 17, 26, 1);}
